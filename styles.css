@@ -26,13 +26,13 @@ body {
   animation: circleAnimte 15s infinite;
 }
 
-/* @keyframes circleAnimte {
+@keyframes circleAnimte {
   50% {
     left: 33%;
     top: 4%;
     scale: 1.11;
   }
-} */
+}
 
 .circle2 {
   position: absolute;
@@ -46,12 +46,12 @@ body {
   animation: circleAnimate 8s infinite;
 }
 
-/* @keyframes circleAnimate {
+@keyframes circleAnimate {
   50% {
     bottom: 6%;
     right: 31%;
   }
-} */
+}
 
 .card-wrapper {
   position: absolute;
@@ -127,7 +127,7 @@ body {
 .modal {
   position: fixed;
   top: 35%;
-  left: 30%;
+  left: 20%;
   transform: translate(-50% -50%);
   border: 2px solid #ffffff59;
   width: 500px;
@@ -247,7 +247,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 400px) and (min-width: 400px) {
   .wrapper {
     display: flex;
     justify-content: center;
@@ -269,6 +269,6 @@ body {
     font-size: 1.3rem;
   }
   .modal {
-    width: 80vw;
+    width: 75vw;
   }
 }
